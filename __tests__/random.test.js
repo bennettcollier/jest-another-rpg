@@ -1,10 +1,3 @@
-const { TestScheduler } = require('jest');
-// const checkIfEqual = require('../lib/random.js');
-
-// test('checks if 10 is equal to 10', () => {
-//     expect(checkIfEqual(10, 10)).toBe(true);
-// });
-
 const randomNumber = require('../lib/random.js');
 
 test('gets random number between 1 and 10', () => {
